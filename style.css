@@ -1,0 +1,221 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Josefin+Slab:wght@100&family=Lexend+Deca&display=swap');
+:root{
+    --Very-dark-blue-main-background: hsl(233, 47%, 7%);
+--Dark-desaturated-blue-card-background: hsl(244, 38%, 16%);
+--Soft-violet-accent: hsl(277, 64%, 61%);
+
+--White-main-heading-stats: hsl(0, 0%, 100%);
+--Slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Lexend Deca', sans-serif;
+ /*inter 700 
+
+
+ */
+ background-color: var(--Very-dark-blue-main-background);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Slab', serif;
+     font-family: 'Lexend Deca', sans-serif;
+ min-height: 100vh;
+
+    color: white;
+    display: flex;
+ align-items: center;
+   justify-content: center;
+}
+
+.container{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.card_container{
+    width: 350px;
+    height: 700px;
+
+     display: grid;
+     grid-template-columns: 320px;
+     border-radius: 0px 15px 15px 0px;
+
+}
+.content{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    background-color: var(--Dark-desaturated-blue-card-background);
+  
+    font-family: 'Lexend Deca', sans-serif;
+
+
+
+}
+.head_title span{
+    color:var(--Soft-violet-accent);
+   
+}
+
+
+.head_title{
+   color: var(--White-main-heading-stats);
+   width: 300px;
+   text-align: center;
+   margin-top: 10px;
+   
+}
+.title_describtion{
+   color: var(--Slightly-transparent-white-stat-headings);
+   margin-top: 15px;
+   text-transform: capitalize;
+   line-height: 26px;
+   text-align: center;
+
+   width: 300px;
+}
+.rating_section{
+    margin-left: 100px;
+    margin-top: 30px;
+  
+}
+.companies,.template,.queries{
+    margin-bottom: 20px;
+
+}
+.n{
+     margin-top: 5px;
+}
+.image{
+    width: 100%;
+    height: 250px;
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-image: url(images/image-header-desktop.jpg);
+    object-fit:cover;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+   background: var(--Soft-violet-accent);
+   opacity: 0.5;
+
+
+}
+p{
+    color: var(--Slightly-transparent-white-stat-headings);
+    text-transform: uppercase;
+}
+@media  (min-width: 1140px) {
+
+
+
+
+    .card_container{
+        height: 23rem;
+        width: 60rem;
+        display: flex;
+           flex-direction: row-reverse;
+    
+    }
+    .content{
+        padding: 46px 60px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Josefin Slab', serif;
+         font-family: 'Lexend Deca', sans-serif;
+    
+    
+    
+    
+    
+    
+    }
+    .rating_section{
+             display: block;
+             margin: 0 auto;
+      text-align: left;
+
+    }
+
+    .head_title span{
+        color:var(--Soft-violet-accent);
+        
+       
+    }
+    .con{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+       
+    }
+    
+    
+    .head_title{
+       color: var(--White-main-heading-stats);
+       width: 340px;
+      text-align: left;
+
+
+    }
+    .title_describtion{
+       color: var(--Slightly-transparent-white-stat-headings);
+       margin-top: 23px;
+       margin-bottom: 40px;
+       text-transform: capitalize;
+       line-height: 26px;
+      width: 410px;
+      text-align: left;
+
+    
+    
+    }
+    
+    
+    .image{
+        width:  100%;
+        height: 100%;
+        border-radius: 0px 15px 15px 0px;
+        object-fit: contain;
+    
+    
+    }
+    .overlay{
+       width: 100%;
+       height: 100%;
+       background: var(--Soft-violet-accent);
+       border-radius: 0px 15px 15px 0px;
+       opacity: 0.5;
+    
+    
+    
+    
+    }
+    p{
+        color: var(--Slightly-transparent-white-stat-headings);
+        text-transform: uppercase;
+    }
+
+}
+    
+    
+    
+    /* TABLET VIEW */
+    
+    
+
